@@ -1,5 +1,25 @@
+import java.util.Scanner;
+
 class E03 {
     public static void main(String[] args) {
+        // Create a Scanner object to read input from the user
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user to enter a number
+        System.out.println("Enter a number:");
+        int number = scanner.nextInt();
+
+        // Evaluate if the number is positive or negative
+        if (number > 0) {
+            System.out.println("Positive number");
+        } else if (number < 0) {
+            System.out.println("Negative number");
+        } else {
+            System.out.println("The number is zero");
+        }
+
+        // Close the Scanner to prevent resource leaks
+        scanner.close();
 
     }
 }
