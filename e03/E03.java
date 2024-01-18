@@ -8,12 +8,12 @@ class E03 {
 
         // Ask the user to enter a number
         System.out.println("Enter a number:");
-        double number = scanner.nextDouble();
+        double number1 = scanner.nextDouble();
 
         // Check if the number is positive or negative
-        if (number > 0) {
+        if (number1 > 0) {
             System.out.println("Positive number");
-        } else if (number < 0) {
+        } else if (number1 < 0) {
             System.out.println("Negative number");
         } else {
             System.out.println("The number is zero");
@@ -22,11 +22,11 @@ class E03 {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("Enter a number:");
-        double number = scanner.nextDouble();
+        double number2 = scanner.nextDouble();
 
-        if (number > 0) {
+        if (number2 > 0) {
             System.out.println("Positive number");
-        } else if (number < 0) {
+        } else if (number2 < 0) {
             System.out.println("Negative number");
         } else {
             System.out.println("The number is zero");
