@@ -8,7 +8,7 @@ class E03 {
         while (true) {
             // Ask the user to enter a number
             System.out.println("Enter a number:");
-            Int number = scanner.nextInt();
+            int number = scanner.nextInt();
 
             // Check if the number is positive, negative, or zero
             String result;
