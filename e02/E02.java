@@ -6,11 +6,11 @@ class E02 {
         Scanner scanner = new Scanner(System.in);
 
         // Ask the user for the first number
-        System.out.print("Give a number: ");
+        System.out.println("Give a number: ");
         int num1 = scanner.nextInt();
         
         // Ask the user for the second number
-        System.out.print("Give a number: ");
+        System.out.println("Give a number: ");
         int num2 = scanner.nextInt();
 
         // Perform calculations
