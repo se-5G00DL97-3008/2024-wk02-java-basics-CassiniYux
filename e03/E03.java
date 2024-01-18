@@ -4,7 +4,7 @@ class E03 {
     public static void main(String[] args) {
        
         // Create a Scanner object to read input
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner1 = new Scanner(System.in);
 
         // Ask the user to enter a number
         System.out.println("Enter a number:");
@@ -18,8 +18,9 @@ class E03 {
         } else {
             System.out.println("The number is zero");
         }
-        
-        Scanner scanner = new Scanner(System.in);
+         scanner.close();
+ 
+        Scanner scanner2 = new Scanner(System.in);
         
         System.out.println("Enter a number:");
         double number2 = scanner.nextDouble();
