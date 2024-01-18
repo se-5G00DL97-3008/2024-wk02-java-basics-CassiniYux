@@ -2,27 +2,39 @@ import java.util.Scanner;
 
 class E03 {
     public static void main(String[] args) {
-       // Create a Scanner object to read input
+       
+        // Create a Scanner object to read input
         Scanner scanner = new Scanner(System.in);
 
-        while (true) {
-            // Ask the user to enter a number
-            System.out.println("Enter a number:");
-            int number = scanner.nextInt();
+        // Ask the user to enter a number
+        System.out.println("Enter a number:");
+        double number = scanner.nextDouble();
 
-            // Check if the number is positive, negative, or zero
-            String result;
-            if (number > 0) {
-                result = "Positive number";
-            } else if (number < 0) {
-                result = "Negative number";
-            } else {
-                result = "The number is zero";
-            }
-
-            // Print the result
-            System.out.println(result);
+        // Check if the number is positive or negative
+        if (number > 0) {
+            System.out.println("Positive number");
+        } else if (number < 0) {
+            System.out.println("Negative number");
+        } else {
+            System.out.println("The number is zero");
         }
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Enter a number:");
+        double number = scanner.nextDouble();
+
+        if (number > 0) {
+            System.out.println("Positive number");
+        } else if (number < 0) {
+            System.out.println("Negative number");
+        } else {
+            System.out.println("The number is zero");
+        }
+        
+        // Close the scanner
+        scanner.close();
+ 
        
     }
 }
