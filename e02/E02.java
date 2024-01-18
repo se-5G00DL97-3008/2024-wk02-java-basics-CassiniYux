@@ -8,12 +8,10 @@ class E02 {
         // Ask the user for the first number
         System.out.print("Give a number: ");
         int num1 = scanner.nextInt();
-        System.out.println(num1);
-
+        
         // Ask the user for the second number
         System.out.print("Give a number: ");
         int num2 = scanner.nextInt();
-        System.out.println(num2);
 
         // Perform calculations
         int sum = num1 + num2;
