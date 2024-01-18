@@ -6,7 +6,7 @@ class E03 {
         Scanner scanner = new Scanner(System.in);
 
         // Ask the user to enter a number
-        System.out.println("Enter a number:");
+        System.out.println("Enter a number: ");
         int number = scanner.nextInt();
 
         // Check if the number is positive or negative
