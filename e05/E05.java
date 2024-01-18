@@ -6,7 +6,7 @@ class E05 {
         Scanner scanner = new Scanner(System.in);
 
         // Ask the user to enter a number
-        System.out.println("Enter a number between 1 and 7: ");
+        System.out.println("Enter a number: ");
         int dayNumber = scanner.nextInt();
 
         // Check the number using a switch statement
