@@ -22,7 +22,7 @@ class E02 {
         // Print the entered numbers and the results
         System.out.println(num1 + " + " + num2 + " = " + sum);
         System.out.println(num1 + " - " + num2 + " = " + difference);
-        System.out.println(num1 + " * " + num2 + " = " + product);
+        System.out.println(num1 + " x " + num2 + " = " + product);
         System.out.println(num1 + " / " + num2 + " = " + quotient);
 
         // Close the scanner
