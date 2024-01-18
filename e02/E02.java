@@ -11,7 +11,7 @@ class E02 {
         System.out.println(num1);
 
         // Ask the user for the second number
-        System.out.print("Give another number: ");
+        System.out.print("Give a number: ");
         double num2 = scanner.nextDouble();
         System.out.println(num2);
 
