@@ -7,19 +7,19 @@ class E02 {
 
         // Ask the user for the first number
         System.out.print("Give a number: ");
-        double num1 = scanner.nextDouble();
+        int num1 = scanner.nextDouble();
         System.out.println(num1);
 
         // Ask the user for the second number
         System.out.print("Give a number: ");
-        double num2 = scanner.nextDouble();
+        int num2 = scanner.nextDouble();
         System.out.println(num2);
 
         // Perform calculations
-        double sum = num1 + num2;
-        double difference = num1 - num2;
-        double product = num1 * num2;
-        double quotient = num1 / num2;
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
 
         // Print the entered numbers and the results
         System.out.println(num1 + " + " + num2 + " = " + sum);
