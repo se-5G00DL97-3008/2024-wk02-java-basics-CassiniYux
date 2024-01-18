@@ -2,30 +2,33 @@ import java.util.Scanner;
 
 class E02 {
     public static void main(String[] args) {
-        // Create a Scanner object to read input from the user
+     // Create a Scanner object to read input
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user to enter the first number
-        System.out.println("Give a number:");
+        // Ask the user for the first number
+        System.out.print("Give a number: ");
         double num1 = scanner.nextDouble();
+        System.out.println(num1);
 
-        // Prompt the user to enter the second number
-        System.out.println("Give a number:");
+        // Ask the user for the second number
+        System.out.print("Give another number: ");
         double num2 = scanner.nextDouble();
+        System.out.println(num2);
 
-        // Perform operations
+        // Perform calculations
         double sum = num1 + num2;
         double difference = num1 - num2;
         double product = num1 * num2;
         double quotient = num1 / num2;
 
-        // Print the results
+        // Print the entered numbers and the results
         System.out.println(num1 + " + " + num2 + " = " + sum);
         System.out.println(num1 + " - " + num2 + " = " + difference);
         System.out.println(num1 + " * " + num2 + " = " + product);
         System.out.println(num1 + " / " + num2 + " = " + quotient);
 
-        // Close the Scanner to prevent resource leaks
+        // Close the scanner
         scanner.close();
+
     }
 }
