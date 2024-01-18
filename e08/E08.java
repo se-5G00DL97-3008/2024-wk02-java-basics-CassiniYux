@@ -7,7 +7,7 @@ class E08 {
 
         while (true) {
             // Ask the user to enter a number
-            System.out.println("Enter a number (0 to quit):");
+            System.out.println("Give a number (0 to quit):");
             int number = scanner.nextInt();
 
             // Check if the number is 0 to quit
@@ -17,9 +17,9 @@ class E08 {
 
             // Check if the number is odd or even using modulo %
             if (number % 2 == 0) {
-                System.out.println("Even number");
+                System.out.println("Number is even");
             } else {
-                System.out.println("Odd number");
+                System.out.println("Number is odd");
             }
         }
 
